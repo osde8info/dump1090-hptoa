@@ -37,6 +37,12 @@ receivers. The best method achieves a standard deviation error of 1.5 ns.
 
 # Building the project
 
+* Install Prerequisites
+```bash
+# aptitude install cmake
+# aptitude install libliquid1d libliquid-dev
+```
+
 * Clone the repository
 ```bash
 $ git clone https://github.com/openskynetwork/dump1090-hptoa
@@ -45,7 +51,8 @@ $ git clone https://github.com/openskynetwork/dump1090-hptoa
 * Compile the project
 ```bash
 $ cd dump1090-hptoa/
-$ mkdir build && cmake ../
+$ mkdir build 
+$ cmake .
 $ make
 ```
 
